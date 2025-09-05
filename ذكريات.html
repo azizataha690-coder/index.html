@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>ذكريات كرتونية</title>
+  <style>
+    body {
+      background: linear-gradient(to bottom, #fff7e6, #d0e6ff);
+      font-family: 'Cairo', sans-serif;
+      text-align: center;
+      padding: 60px;
+      color: #444;
+    }
+    h1 {
+      font-size: 2.8em;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 1.2em;
+      margin-bottom: 30px;
+    }
+    button {
+      background-color: #ffcc70;
+      border: none;
+      padding: 15px 35px;
+      font-size: 1.3em;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background-color: #ffc04d;
+    }
+  </style>
+</head>
+<body>
+  <h1>🌟 افتح ذكرى كرتونية</h1>
+  <p>كل ضغطة بتاخدك لشخصية من طفولتنا... جاهز للحنين؟</p>
+  <button onclick="openCartoon()">افتح ذكرى</button>
+
+  <script>
+    const cartoonLinks = [
+      "https://www.jigsawplanet.com/?rc=play&pid=38c3fafdc5c1",
+      "https://www.jigsawplanet.com/?rc=play&pid=2d543f2e054b",
+      "https://www.jigsawplanet.com/?rc=play&pid=2a9dca2a9dfe",
+      "https://www.jigsawplanet.com/?rc=play&pid=1aafd006b1d2",
+      "https://www.jigsawplanet.com/?rc=play&pid=027263c8bb93",
+      "https://www.jigsawplanet.com/?rc=play&pid=232ed7e12edc",
+      "https://www.jigsawplanet.com/?rc=play&pid=3cf221e1f005",
+      "https://www.jigsawplanet.com/?rc=play&pid=034a159c64d2",
+      "https://www.jigsawplanet.com/?rc=play&pid=33783ea4faad",
+      "https://www.jigsawplanet.com/?rc=play&pid=1d66e5856e9b",
+      "https://www.jigsawplanet.com/?rc=play&pid=13d490122449",
+      "https://www.jigsawplanet.com/?rc=play&pid=23e6bfb984ad",
+      "https://www.jigsawplanet.com/?rc=play&pid=03824bcd7d2e",
+      "https://www.jigsawplanet.com/?rc=play&pid=0b0961b9e943",
+      "https://www.jigsawplanet.com/?rc=play&pid=044b7738664f",
+      "https://www.jigsawplanet.com/?rc=play&pid=14056f84ea1f",
+      "https://www.jigsawplanet.com/?rc=play&pid=0bd9f2f87c7c",
+      "https://www.jigsawplanet.com/?rc=play&pid=049b87d7c61b",
+      "https://www.jigsawplanet.com/?rc=play&pid=039a1475e6a1",
+      "https://www.jigsawplanet.com/?rc=play&pid=1c4692fc07ac",
+      "https://www.jigsawplanet.com/?rc=play&pid=1ba7f08bb4e5",
+      "https://www.jigsawplanet.com/?rc=play&pid=2b95aa142d05",
+      "https://www.jigsawplanet.com/?rc=play&pid=3c1227002be8",
+      "https://www.jigsawplanet.com/?rc=play&pid=23ce2fc5f84e",
+      "https://www.jigsawplanet.com/?rc=play&pid=1c8e195f3350",
+      "https://www.jigsawplanet.com/?rc=play&pid=202e274d3d37",
+      "https://www.jigsawplanet.com/?rc=play&pid=0fd847d63c8a",
+      "https://www.jigsawplanet.com/?rc=play&pid=10cc31b1c322",
+      "https://www.jigsawplanet.com/?rc=play&pid=2f74b6d5bab8",
+      "https://www.jigsawplanet.com/?rc=play&pid=1c6ecf102740",
+      "https://www.jigsawplanet.com/?rc=play&pid=27cf58f2e217",
+      "https://www.jigsawplanet.com/?rc=play&pid=10d499b9430d"
+    ];
+
+    function openCartoon() {
+      const randomIndex = Math.floor(Math.random() * cartoonLinks.length);
+      window.location.href = cartoonLinks[randomIndex];
+    }
+  </script>
+</body>
+</html>
